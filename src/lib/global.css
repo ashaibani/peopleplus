@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.connect-four {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* grid-template-rows: repeat(6, 1fr); */
+    width: 28rem;
+    height: 25rem;
+    background-color: blue;
+}
+
+.connect-four-piece {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.connect-four-indicator {
+    position: absolute;
+    top: -38px;
+}
