@@ -4,10 +4,9 @@
 
 .connect-four {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    /* grid-template-rows: repeat(6, 1fr); */
-    width: 28rem;
-    height: 25rem;
+    grid-template-columns: repeat(var(--board-width), 1fr);
+    width: 25rem;
+    height: 20rem;
     background-color: blue;
 }
 

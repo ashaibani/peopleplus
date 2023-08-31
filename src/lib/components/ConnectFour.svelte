@@ -4,8 +4,10 @@
 	// gamestate - the state of the current game
 	var stateOfGame: string = 'start';
 
+	// gameResult - the end result of the game
 	var gameResult: number = 0;
 
+	// handleWinner handler for the game-over event
 	function handleWinner(e: { detail: { result: number } }) {
 		stateOfGame = 'finished';
 		gameResult = e.detail.result;

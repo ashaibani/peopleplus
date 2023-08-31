@@ -2,9 +2,6 @@
 	import ConnectFour from '$lib/components/ConnectFour.svelte';
 </script>
 
-<!-- Container for demo purpose -->
-
-<!-- Section: Design Block -->
 <div class="container my-24 mx-auto">
 	<section class="text-center">
 		<div class="flex justify-center">
@@ -15,7 +12,7 @@
 				</h2>
 				<p class="text-lg">
 					A simple demo to show how I can use sveltekit and cloudflare pages to build a game of
-					connect four.
+					connect 4.
 				</p>
 			</div>
 		</div>
